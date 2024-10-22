@@ -2,8 +2,6 @@
   display: grid;
   grid-template-rows: [start start-location] auto [end-location start-temperature start-centigrade] 1fr [end-centigrade start-fahrenheit] 1fr [end-temperature end-fahrenheit start-description] auto [end-description end];
   grid-template-columns: [start start-location start-temperature start-description] 1fr [end-temperature start-centigrade start-fahrenheit] auto [end end-location end-centigrade end-fahrenheit end-description];
-  width: 100%;
-  height: 100%;
 
   .location {
     font-size: var(--font-size-md);

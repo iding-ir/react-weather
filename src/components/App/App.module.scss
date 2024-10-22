@@ -7,41 +7,57 @@
   color: var(--color-light-md);
   background-color: var(--color-dark-sm);
 
+  @media screen and (min-width: $breakpoint-lg) {
+    grid-template-rows: [start start-header] auto [end-header start-search] auto [end-search start-current start-forecast] auto [end-current end-forecast start-chart] 2fr [end-chart end];
+    grid-template-columns: [start start-header start-search start-current start-chart] 1fr [end-current start-forecast] 2fr [end end-header end-search end-current end-forecast end-chart];
+  }
+
   & > * {
     padding: var(--spacing-md) var(--spacing-xl);
-  }
-
-  & > :nth-of-type(odd) {
-    background-color: var(--color-dark-md);
-  }
-
-  & > :nth-child(even) {
-    background-color: var(--color-dark-sm);
   }
 
   .header {
     padding: var(--spacing-md);
     grid-row: start-header / end-header;
     grid-column: start-header / end-header;
+    background-color: var(--color-dark-md);
   }
 
   .search {
     grid-row: start-search / end-search;
     grid-column: start-search / end-search;
+    background-color: var(--color-dark-sm);
   }
 
   .current {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-row: start-current / end-current;
     grid-column: start-current / end-current;
+    background-color: var(--color-dark-md);
   }
 
   .forecast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-row: start-forecast / end-forecast;
     grid-column: start-forecast / end-forecast;
+    background-color: var(--color-dark-sm);
+
+    @media screen and (min-width: $breakpoint-lg) {
+      background-color: var(--color-dark-md);
+    }
   }
 
   .chart {
     grid-row: start-chart / end-chart;
     grid-column: start-chart / end-chart;
+    background-color: var(--color-dark-md);
+
+    @media screen and (min-width: $breakpoint-lg) {
+      background-color: var(--color-dark-sm);
+    }
   }
 }
