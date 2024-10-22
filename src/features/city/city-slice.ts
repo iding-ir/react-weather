@@ -4,11 +4,11 @@ import { createAppSlice } from "../createAppSlice";
 import { City } from "../services/city";
 
 export interface CityState {
-  current: City | null;
+  current?: City;
 }
 
 const initialState: CityState = {
-  current: null,
+  current: undefined,
 };
 
 export const citySlice = createAppSlice({

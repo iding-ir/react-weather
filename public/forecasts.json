@@ -3,42 +3,42 @@
     "key": "london",
     "city": "London",
     "current": {
-      "day": "Sunday",
+      "day": "Sun",
       "icon": "cloudy",
       "temperature": 20,
       "details": "light rain"
     },
     "forecast": [
       {
-        "day": "Monday",
+        "day": "Mon",
         "icon": "sunny",
         "max": 22,
         "min": 16,
         "details": "clear sky"
       },
       {
-        "day": "Tuesday",
+        "day": "Tue",
         "icon": "cloudy",
         "max": 21,
         "min": 15,
         "details": "light rain"
       },
       {
-        "day": "Wednesday",
+        "day": "Wed",
         "icon": "sunny",
         "max": 23,
         "min": 17,
         "details": "clear sky"
       },
       {
-        "day": "Thursday",
+        "day": "Thu",
         "icon": "cloudy",
         "max": 20,
         "min": 15,
         "details": "light rain"
       },
       {
-        "day": "Friday",
+        "day": "Fri",
         "icon": "sunny",
         "max": 22,
         "min": 16,
@@ -50,42 +50,42 @@
     "key": "paris",
     "city": "Paris",
     "current": {
-      "day": "Sunday",
+      "day": "Sun",
       "icon": "sunny",
       "temperature": 25,
       "details": "clear sky"
     },
     "forecast": [
       {
-        "day": "Monday",
+        "day": "Mon",
         "icon": "cloudy",
         "max": 24,
         "min": 17,
         "details": "light rain"
       },
       {
-        "day": "Tuesday",
+        "day": "Tue",
         "icon": "sunny",
         "max": 26,
         "min": 19,
         "details": "clear sky"
       },
       {
-        "day": "Wednesday",
+        "day": "Wed",
         "icon": "cloudy",
         "max": 23,
         "min": 16,
         "details": "light rain"
       },
       {
-        "day": "Thursday",
+        "day": "Thu",
         "icon": "sunny",
         "max": 25,
         "min": 18,
         "details": "clear sky"
       },
       {
-        "day": "Friday",
+        "day": "Fri",
         "icon": "cloudy",
         "max": 24,
         "min": 17,
@@ -97,42 +97,42 @@
     "key": "new-york",
     "city": "New York",
     "current": {
-      "day": "Sunday",
+      "day": "Sun",
       "icon": "cloudy",
       "temperature": 22,
       "details": "light rain"
     },
     "forecast": [
       {
-        "day": "Monday",
+        "day": "Mon",
         "icon": "sunny",
         "max": 30,
         "min": 23,
         "details": "clear sky"
       },
       {
-        "day": "Tuesday",
+        "day": "Tue",
         "icon": "cloudy",
         "max": 29,
         "min": 22,
         "details": "light rain"
       },
       {
-        "day": "Wednesday",
+        "day": "Wed",
         "icon": "sunny",
         "max": 31,
         "min": 24,
         "details": "clear sky"
       },
       {
-        "day": "Thursday",
+        "day": "Thu",
         "icon": "cloudy",
         "max": 28,
         "min": 22,
         "details": "light rain"
       },
       {
-        "day": "Friday",
+        "day": "Fri",
         "icon": "sunny",
         "max": 30,
         "min": 23,
@@ -144,42 +144,42 @@
     "key": "amsterdam",
     "city": "Amsterdam",
     "current": {
-      "day": "Sunday",
+      "day": "Sun",
       "icon": "sunny",
       "temperature": 25,
       "details": "clear sky"
     },
     "forecast": [
       {
-        "day": "Monday",
+        "day": "Mon",
         "icon": "cloudy",
         "max": 29,
         "min": 24,
         "details": "light rain"
       },
       {
-        "day": "Tuesday",
+        "day": "Tue",
         "icon": "sunny",
         "max": 31,
         "min": 26,
         "details": "clear sky"
       },
       {
-        "day": "Wednesday",
+        "day": "Wed",
         "icon": "cloudy",
         "max": 28,
         "min": 23,
         "details": "light rain"
       },
       {
-        "day": "Thursday",
+        "day": "Thu",
         "icon": "sunny",
         "max": 30,
         "min": 25,
         "details": "clear sky"
       },
       {
-        "day": "Friday",
+        "day": "Fri",
         "icon": "cloudy",
         "max": 29,
         "min": 24,

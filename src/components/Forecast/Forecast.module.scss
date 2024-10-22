@@ -5,7 +5,7 @@
     font-size: var(--font-size-md);
     font-weight: bold;
     color: var(--color-primary);
-    padding: var(--spacing-sm) 0;
+    padding: var(--spacing-md) 0;
     text-transform: uppercase;
   }
 
@@ -14,10 +14,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: var(--spacing-sm);
+    padding: var(--spacing-md) 0;
 
     li {
       display: grid;
-      gap: var(--spacing-sm);
+      gap: var(--spacing-xs);
       padding: var(--spacing-sm);
       grid-template-rows: [start start-day] auto [end-day start-icon] 1fr [end-icon start-max start-min] 1fr [end-max end-min start-details] auto [end-details end];
       grid-template-columns: [start start-day start-icon start-max start-details] 1fr [end-max start-min] auto [end end-day end-icon end-min end-details];

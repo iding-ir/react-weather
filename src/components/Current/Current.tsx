@@ -1,30 +1,24 @@
 import clsx from "clsx";
 
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
-import { selectCity } from "../../features/city";
-import { useGetForecastQuery } from "../../features/services/forecast";
-import { UNITS, Unit, selectUnit, setUnit } from "../../features/unit";
+import { UNITS, selectUnit, setUnit } from "../../features/unit";
+import { useForecasts } from "../../hooks/use-forecasts";
+import { getTemperature } from "../../methods/get-temperature";
+import { getUnitSymbol } from "../../methods/get-unit-symbol";
 import styles from "./Current.module.scss";
 
 export const Current = () => {
   const dispatch = useAppDispatch();
-  const { data } = useGetForecastQuery(5);
-  const city = useAppSelector(selectCity);
   const unit = useAppSelector(selectUnit);
-
-  if (!data || !city) {
-    return null;
-  }
-
-  const cityData = data.find((item) => item.key === city.key);
-
-  if (!cityData) {
-    return null;
-  }
+  const { city, current } = useForecasts();
 
   const handleChangeUnit = (unit: UNITS) => {
     dispatch(setUnit(unit));
   };
+
+  if (!city || !current) {
+    return null;
+  }
 
   return (
     <div className={styles.container}>
@@ -32,7 +26,7 @@ export const Current = () => {
         {city.name}, {city.country}
       </div>
       <div className={styles.temperature}>
-        {getTemperature(cityData.current.temperature, unit)}
+        {getTemperature(current.temperature, unit)}
         {getUnitSymbol(unit)}
       </div>
       <div
@@ -48,30 +42,8 @@ export const Current = () => {
         {getUnitSymbol(UNITS.fahrenheit)}
       </div>
       <div className={styles.description}>
-        {cityData.current.day}, {cityData.current.details}
+        {current.day}, {current.details}
       </div>
     </div>
   );
-};
-
-export const getUnitSymbol = (unit: Unit) => {
-  switch (unit) {
-    case UNITS.centigrade:
-      return "°C";
-    case UNITS.fahrenheit:
-      return "°F";
-  }
-};
-
-export const getTemperature = (temperature: number, unit: Unit) => {
-  switch (unit) {
-    case UNITS.centigrade:
-      return temperature;
-    case UNITS.fahrenheit:
-      return convertToFahrenheit(temperature);
-  }
-};
-
-export const convertToFahrenheit = (temperature: number) => {
-  return Math.round(temperature * 1.8 + 32);
 };

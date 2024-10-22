@@ -1,7 +1,8 @@
 import { useAppSelector } from "../../../app/hooks";
 import { Weather } from "../../../features/services/forecast";
 import { selectUnit } from "../../../features/unit";
-import { getTemperature, getUnitSymbol } from "../../Current";
+import { getTemperature } from "../../../methods/get-temperature";
+import { getUnitSymbol } from "../../../methods/get-unit-symbol";
 import styles from "./Item.module.scss";
 import Cloudy from "./icons/cloudy.svg";
 import Sunny from "./icons/sunny.svg";

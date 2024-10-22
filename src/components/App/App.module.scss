@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-rows: [start start-header] auto [end-header start-search] auto [end-search start-current] 1fr [end-current start-forecast] 2fr [end-forecast start-chart] 2fr [end-chart end];
+  grid-template-rows: [start start-header] auto [end-header start-search] auto [end-search start-current] auto [end-current start-forecast] auto [end-forecast start-chart] 2fr [end-chart end];
   grid-template-columns: [start start-header start-search start-current start-forecast start-chart] 1fr [end end-header end-search end-current end-forecast end-chart];
   width: 100%;
   height: 100%;

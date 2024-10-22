@@ -2,14 +2,15 @@ import { useState } from "react";
 
 import { useAppDispatch } from "../../app/hooks";
 import { setCity } from "../../features/city";
-import { City, useGetCityQuery } from "../../features/services/city";
+import { City } from "../../features/services/city";
+import { useCity } from "../../hooks/use-cities";
 import { AutoComplete } from "../AutoComplete";
 import styles from "./Search.module.scss";
 
 export const Search = () => {
   const dispatch = useAppDispatch();
   const [autocomplete, setAutocomplete] = useState(false);
-  const { data } = useGetCityQuery(5);
+  const { data } = useCity();
 
   const handleClick = (city: City) => {
     dispatch(setCity(city));
