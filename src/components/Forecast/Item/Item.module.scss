@@ -21,6 +21,11 @@
     grid-row: start-icon / end-icon;
     grid-column: start-icon / end-icon;
     font-size: 2rem;
+
+    svg {
+      width: var(--icon-size-md);
+      height: auto;
+    }
   }
 
   .max {

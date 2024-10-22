@@ -17,7 +17,6 @@ export const Forecast = () => {
   if (!cityData) {
     return null;
   }
-  console.log(cityData);
 
   return (
     <div className={styles.container}>
