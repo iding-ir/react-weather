@@ -1,0 +1,166 @@
+{
+  "london": {
+    "city": "London",
+    "current": {
+      "day": "Sunday",
+      "temperature": 12,
+      "weather": "Cloudy",
+      "icon": "cloudy"
+    },
+    "forecast": [
+      {
+        "day": "Monday",
+        "temperature": 12,
+        "weather": "Cloudy",
+        "icon": "cloudy"
+      },
+      {
+        "day": "Tuesday",
+        "temperature": 14,
+        "weather": "Sunny",
+        "icon": "sunny"
+      },
+      {
+        "day": "Wednesday",
+        "temperature": 15,
+        "weather": "Sunny",
+        "icon": "sunny"
+      },
+      {
+        "day": "Thursday",
+        "temperature": 13,
+        "weather": "Cloudy",
+        "icon": "cloudy"
+      },
+      {
+        "day": "Friday",
+        "temperature": 12,
+        "weather": "Rain",
+        "icon": "rain"
+      }
+    ]
+  },
+  "paris": {
+    "city": "Paris",
+    "current": {
+      "day": "Sunday",
+      "temperature": 14,
+      "weather": "Sunny",
+      "icon": "sunny"
+    },
+    "forecast": [
+      {
+        "day": "Monday",
+        "temperature": 15,
+        "weather": "Sunny",
+        "icon": "sunny"
+      },
+      {
+        "day": "Tuesday",
+        "temperature": 16,
+        "weather": "Sunny",
+        "icon": "sunny"
+      },
+      {
+        "day": "Wednesday",
+        "temperature": 17,
+        "weather": "Sunny",
+        "icon": "sunny"
+      },
+      {
+        "day": "Thursday",
+        "temperature": 16,
+        "weather": "Sunny",
+        "icon": "sunny"
+      },
+      {
+        "day": "Friday",
+        "temperature": 15,
+        "weather": "Sunny",
+        "icon": "sunny"
+      }
+    ]
+  },
+  "new-york": {
+    "city": "New York",
+    "current": {
+      "day": "Sunday",
+      "temperature": 10,
+      "weather": "Rain",
+      "icon": "rain"
+    },
+    "forecast": [
+      {
+        "day": "Monday",
+        "temperature": 11,
+        "weather": "Rain",
+        "icon": "rain"
+      },
+      {
+        "day": "Tuesday",
+        "temperature": 12,
+        "weather": "Rain",
+        "icon": "rain"
+      },
+      {
+        "day": "Wednesday",
+        "temperature": 13,
+        "weather": "Rain",
+        "icon": "rain"
+      },
+      {
+        "day": "Thursday",
+        "temperature": 12,
+        "weather": "Rain",
+        "icon": "rain"
+      },
+      {
+        "day": "Friday",
+        "temperature": 11,
+        "weather": "Rain",
+        "icon": "rain"
+      }
+    ]
+  },
+  "amsterdam": {
+    "city": "Amsterdam",
+    "current": {
+      "day": "Sunday",
+      "temperature": 16,
+      "weather": "Sunny",
+      "icon": "sunny"
+    },
+    "forecast": [
+      {
+        "day": "Monday",
+        "temperature": 17,
+        "weather": "Sunny",
+        "icon": "sunny"
+      },
+      {
+        "day": "Tuesday",
+        "temperature": 18,
+        "weather": "Sunny",
+        "icon": "sunny"
+      },
+      {
+        "day": "Wednesday",
+        "temperature": 19,
+        "weather": "Sunny",
+        "icon": "sunny"
+      },
+      {
+        "day": "Thursday",
+        "temperature": 18,
+        "weather": "Sunny",
+        "icon": "sunny"
+      },
+      {
+        "day": "Friday",
+        "temperature": 17,
+        "weather": "Sunny",
+        "icon": "sunny"
+      }
+    ]
+  }
+}

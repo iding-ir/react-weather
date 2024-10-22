@@ -1,0 +1,18 @@
+[
+  {
+    "name": "London",
+    "key": "london"
+  },
+  {
+    "name": "Paris",
+    "key": "paris"
+  },
+  {
+    "name": "New York",
+    "key": "new-york"
+  },
+  {
+    "name": "Amsterdam",
+    "key": "amsterdam"
+  }
+]

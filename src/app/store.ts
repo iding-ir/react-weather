@@ -5,13 +5,16 @@ import {
   configureStore,
 } from "@reduxjs/toolkit";
 
+import { citySlice } from "../features/city";
+import { cityApi } from "../features/services/city";
 import { unitSlice } from "../features/unit";
 
-const rootReducer = combineSlices(unitSlice);
+const rootReducer = combineSlices(unitSlice, citySlice, cityApi);
 
 export const store = configureStore({
   reducer: rootReducer,
-  middleware: (getDefaultMiddleware) => getDefaultMiddleware(),
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().prepend(cityApi.middleware),
 });
 
 export type RootState = ReturnType<typeof rootReducer>;
