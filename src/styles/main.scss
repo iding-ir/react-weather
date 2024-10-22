@@ -10,26 +10,25 @@ body,
 
 html {
   font-family: Roboto;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.5;
 }
 
 @media only screen and (min-width: $breakpoint-md) {
   html {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
 @media only screen and (min-width: $breakpoint-lg) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 body * {
   font-family: Roboto;
   font-size: 1rem;
-  color: var(--color-dark);
 }
 
 html *,
