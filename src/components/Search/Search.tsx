@@ -12,7 +12,7 @@ export const Search = () => {
   const { data } = useGetCityQuery(5);
 
   const handleClick = (city: City) => {
-    dispatch(setCity(city.key));
+    dispatch(setCity(city));
     setAutocomplete(false);
   };
 

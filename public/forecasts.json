@@ -5,8 +5,7 @@
     "current": {
       "day": "Sunday",
       "icon": "cloudy",
-      "max": "20",
-      "min": "15",
+      "temperature": "20",
       "details": "light rain"
     },
     "forecast": [
@@ -53,8 +52,7 @@
     "current": {
       "day": "Sunday",
       "icon": "sunny",
-      "max": "25",
-      "min": "18",
+      "temperature": "25",
       "details": "clear sky"
     },
     "forecast": [
@@ -101,8 +99,7 @@
     "current": {
       "day": "Sunday",
       "icon": "cloudy",
-      "max": "28",
-      "min": "22",
+      "temperature": "22",
       "details": "light rain"
     },
     "forecast": [
@@ -149,8 +146,7 @@
     "current": {
       "day": "Sunday",
       "icon": "sunny",
-      "max": "30",
-      "min": "25",
+      "temperature": "25",
       "details": "clear sky"
     },
     "forecast": [

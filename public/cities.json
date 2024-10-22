@@ -1,18 +1,22 @@
 [
   {
     "name": "London",
-    "key": "london"
+    "key": "london",
+    "country": "UK"
   },
   {
     "name": "Paris",
-    "key": "paris"
+    "key": "paris",
+    "country": "FR"
   },
   {
     "name": "New York",
-    "key": "new-york"
+    "key": "new-york",
+    "country": "US"
   },
   {
     "name": "Amsterdam",
-    "key": "amsterdam"
+    "key": "amsterdam",
+    "country": "NL"
   }
 ]

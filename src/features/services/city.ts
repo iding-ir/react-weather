@@ -3,6 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export type City = {
   key: string;
   name: string;
+  country: string;
 };
 
 export const cityApi = createApi({

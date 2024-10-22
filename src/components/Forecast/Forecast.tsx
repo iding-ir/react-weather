@@ -12,7 +12,7 @@ export const Forecast = () => {
     return null;
   }
 
-  const cityData = data.find((item) => item.key === city);
+  const cityData = data.find((item) => item.key === city.key);
 
   if (!cityData) {
     return null;

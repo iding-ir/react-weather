@@ -1,9 +1,10 @@
 import { PayloadAction } from "@reduxjs/toolkit";
 
 import { createAppSlice } from "../createAppSlice";
+import { City } from "../services/city";
 
 export interface CityState {
-  current: string | null;
+  current: City | null;
 }
 
 const initialState: CityState = {
@@ -14,7 +15,7 @@ export const citySlice = createAppSlice({
   name: "city",
   initialState,
   reducers: (create) => ({
-    setCity: create.reducer((state, { payload }: PayloadAction<string>) => {
+    setCity: create.reducer((state, { payload }: PayloadAction<City>) => {
       state.current = payload;
     }),
   }),
