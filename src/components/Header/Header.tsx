@@ -1,5 +1,5 @@
 import styles from "./Header.module.scss";
 
 export const Header = () => {
-  return <h2 className={styles.container}>Header</h2>;
+  return <h1 className={styles.container}>React Weather</h1>;
 };
