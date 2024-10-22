@@ -4,19 +4,19 @@
   grid-template-columns: [start start-header start-search start-current start-forecast start-chart] 1fr [end end-header end-search end-current end-forecast end-chart];
   width: 100%;
   height: 100%;
-  color: var(--color-lighter);
-  background-color: var(--color-dark);
+  color: var(--color-light-md);
+  background-color: var(--color-dark-sm);
 
   & > * {
     padding: var(--spacing-md) var(--spacing-xl);
   }
 
   & > :nth-of-type(odd) {
-    background-color: var(--color-darker);
+    background-color: var(--color-dark-md);
   }
 
   & > :nth-child(even) {
-    background-color: var(--color-dark);
+    background-color: var(--color-dark-sm);
   }
 
   .header {

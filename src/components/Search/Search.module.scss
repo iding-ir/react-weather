@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  color: var(--color-lighter);
+  color: var(--color-light-md);
 
   label {
     font-size: var(--font-size-sm);
@@ -12,8 +12,8 @@
   input {
     font-size: var(--font-size-md);
     padding: var(--spacing-sm);
-    color: var(--color-lighter);
-    background-color: var(--color-darker);
+    color: var(--color-light-md);
+    background-color: var(--color-dark-md);
     appearance: none;
     outline: none;
     border: none;
