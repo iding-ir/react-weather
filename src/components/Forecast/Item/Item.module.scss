@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  grid-template-rows: [start start-day] auto [end-day start-icon] 1fr [end-icon start-max start-min] 1fr [end-max end-min start-details] auto [end-details end];
+  grid-template-columns: [start start-day start-icon start-max start-details] 1fr [end-max start-min] auto [end end-day end-icon end-min end-details];
+  background: linear-gradient(
+    to bottom,
+    var(--color-dark-md),
+    var(--color-dark-sm)
+  );
+  border-radius: var(--border-radius);
+
+  .day {
+    grid-row: start-day / end-day;
+    grid-column: start-day / end-day;
+    font-size: var(--font-size-md);
+  }
+
+  .icon {
+    grid-row: start-icon / end-icon;
+    grid-column: start-icon / end-icon;
+    font-size: 2rem;
+  }
+
+  .max {
+    grid-row: start-max / end-max;
+    grid-column: start-max / end-max;
+    font-size: var(--font-size-md);
+    color: var(--color-primary);
+  }
+
+  .min {
+    grid-row: start-min / end-min;
+    grid-column: start-min / end-min;
+    font-size: var(--font-size-sm);
+  }
+
+  .details {
+    grid-row: start-details / end-details;
+    grid-column: start-details / end-details;
+    font-size: var(--font-size-md);
+  }
+}

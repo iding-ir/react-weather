@@ -1,62 +1,32 @@
-import Cloudy from "../../assets/icons/icon-cloudy.svg";
+import { useAppSelector } from "../../app/hooks";
+import { selectCity } from "../../features/city";
+import { useGetForecastQuery } from "../../features/services/forecast";
 import styles from "./Forecast.module.scss";
+import { Item } from "./Item";
 
 export const Forecast = () => {
+  const { data } = useGetForecastQuery(5);
+  const city = useAppSelector(selectCity);
+
+  if (!data || !city) {
+    return null;
+  }
+
+  const cityData = data.find((item) => item.key === city);
+
+  if (!cityData) {
+    return null;
+  }
+  console.log(cityData);
+
   return (
     <div className={styles.container}>
       <h2>5 days forecast</h2>
 
       <ul>
-        <li>
-          <h3 className={styles.day}>Monday</h3>
-
-          <i className={styles.icon}>
-            <Cloudy />
-          </i>
-          <b className={styles.max}>25°C</b>
-          <span className={styles.min}>10°C</span>
-          <p className={styles.details}>light rain</p>
-        </li>
-
-        <li>
-          <h3 className={styles.day}>Monday</h3>
-          <i className={styles.icon}>
-            <Cloudy />
-          </i>
-          <b className={styles.max}>25°C</b>
-          <span className={styles.min}>10°C</span>
-          <p className={styles.details}>light rain</p>
-        </li>
-
-        <li>
-          <h3 className={styles.day}>Monday</h3>
-          <i className={styles.icon}>
-            <Cloudy />
-          </i>
-          <b className={styles.max}>25°C</b>
-          <span className={styles.min}>10°C</span>
-          <p className={styles.details}>light rain</p>
-        </li>
-
-        <li>
-          <h3 className={styles.day}>Monday</h3>
-          <i className={styles.icon}>
-            <Cloudy />
-          </i>
-          <b className={styles.max}>25°C</b>
-          <span className={styles.min}>10°C</span>
-          <p className={styles.details}>light rain</p>
-        </li>
-
-        <li>
-          <h3 className={styles.day}>Monday</h3>
-          <i className={styles.icon}>
-            <Cloudy />
-          </i>
-          <b className={styles.max}>25°C</b>
-          <span className={styles.min}>10°C</span>
-          <p className={styles.details}>light rain</p>
-        </li>
+        {cityData.forecast.map((item) => (
+          <Item key={item.day} item={item} />
+        ))}
       </ul>
     </div>
   );

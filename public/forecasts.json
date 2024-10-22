@@ -1,166 +1,194 @@
-{
-  "london": {
+[
+  {
+    "key": "london",
     "city": "London",
     "current": {
       "day": "Sunday",
-      "temperature": 12,
-      "weather": "Cloudy",
-      "icon": "cloudy"
+      "icon": "cloudy",
+      "max": "20",
+      "min": "15",
+      "details": "light rain"
     },
     "forecast": [
       {
         "day": "Monday",
-        "temperature": 12,
-        "weather": "Cloudy",
-        "icon": "cloudy"
+        "icon": "sunny",
+        "max": "22",
+        "min": "16",
+        "details": "clear sky"
       },
       {
         "day": "Tuesday",
-        "temperature": 14,
-        "weather": "Sunny",
-        "icon": "sunny"
+        "icon": "cloudy",
+        "max": "21",
+        "min": "15",
+        "details": "light rain"
       },
       {
         "day": "Wednesday",
-        "temperature": 15,
-        "weather": "Sunny",
-        "icon": "sunny"
+        "icon": "sunny",
+        "max": "23",
+        "min": "17",
+        "details": "clear sky"
       },
       {
         "day": "Thursday",
-        "temperature": 13,
-        "weather": "Cloudy",
-        "icon": "cloudy"
+        "icon": "cloudy",
+        "max": "20",
+        "min": "15",
+        "details": "light rain"
       },
       {
         "day": "Friday",
-        "temperature": 12,
-        "weather": "Rain",
-        "icon": "rain"
+        "icon": "sunny",
+        "max": "22",
+        "min": "16",
+        "details": "clear sky"
       }
     ]
   },
-  "paris": {
+  {
+    "key": "paris",
     "city": "Paris",
     "current": {
       "day": "Sunday",
-      "temperature": 14,
-      "weather": "Sunny",
-      "icon": "sunny"
+      "icon": "sunny",
+      "max": "25",
+      "min": "18",
+      "details": "clear sky"
     },
     "forecast": [
       {
         "day": "Monday",
-        "temperature": 15,
-        "weather": "Sunny",
-        "icon": "sunny"
+        "icon": "cloudy",
+        "max": "24",
+        "min": "17",
+        "details": "light rain"
       },
       {
         "day": "Tuesday",
-        "temperature": 16,
-        "weather": "Sunny",
-        "icon": "sunny"
+        "icon": "sunny",
+        "max": "26",
+        "min": "19",
+        "details": "clear sky"
       },
       {
         "day": "Wednesday",
-        "temperature": 17,
-        "weather": "Sunny",
-        "icon": "sunny"
+        "icon": "cloudy",
+        "max": "23",
+        "min": "16",
+        "details": "light rain"
       },
       {
         "day": "Thursday",
-        "temperature": 16,
-        "weather": "Sunny",
-        "icon": "sunny"
+        "icon": "sunny",
+        "max": "25",
+        "min": "18",
+        "details": "clear sky"
       },
       {
         "day": "Friday",
-        "temperature": 15,
-        "weather": "Sunny",
-        "icon": "sunny"
+        "icon": "cloudy",
+        "max": "24",
+        "min": "17",
+        "details": "light rain"
       }
     ]
   },
-  "new-york": {
+  {
+    "key": "new-york",
     "city": "New York",
     "current": {
       "day": "Sunday",
-      "temperature": 10,
-      "weather": "Rain",
-      "icon": "rain"
+      "icon": "cloudy",
+      "max": "28",
+      "min": "22",
+      "details": "light rain"
     },
     "forecast": [
       {
         "day": "Monday",
-        "temperature": 11,
-        "weather": "Rain",
-        "icon": "rain"
+        "icon": "sunny",
+        "max": "30",
+        "min": "23",
+        "details": "clear sky"
       },
       {
         "day": "Tuesday",
-        "temperature": 12,
-        "weather": "Rain",
-        "icon": "rain"
+        "icon": "cloudy",
+        "max": "29",
+        "min": "22",
+        "details": "light rain"
       },
       {
         "day": "Wednesday",
-        "temperature": 13,
-        "weather": "Rain",
-        "icon": "rain"
+        "icon": "sunny",
+        "max": "31",
+        "min": "24",
+        "details": "clear sky"
       },
       {
         "day": "Thursday",
-        "temperature": 12,
-        "weather": "Rain",
-        "icon": "rain"
+        "icon": "cloudy",
+        "max": "28",
+        "min": "22",
+        "details": "light rain"
       },
       {
         "day": "Friday",
-        "temperature": 11,
-        "weather": "Rain",
-        "icon": "rain"
+        "icon": "sunny",
+        "max": "30",
+        "min": "23",
+        "details": "clear sky"
       }
     ]
   },
-  "amsterdam": {
+  {
+    "key": "amsterdam",
     "city": "Amsterdam",
     "current": {
       "day": "Sunday",
-      "temperature": 16,
-      "weather": "Sunny",
-      "icon": "sunny"
+      "icon": "sunny",
+      "max": "30",
+      "min": "25",
+      "details": "clear sky"
     },
     "forecast": [
       {
         "day": "Monday",
-        "temperature": 17,
-        "weather": "Sunny",
-        "icon": "sunny"
+        "icon": "cloudy",
+        "max": "29",
+        "min": "24",
+        "details": "light rain"
       },
       {
         "day": "Tuesday",
-        "temperature": 18,
-        "weather": "Sunny",
-        "icon": "sunny"
+        "icon": "sunny",
+        "max": "31",
+        "min": "26",
+        "details": "clear sky"
       },
       {
         "day": "Wednesday",
-        "temperature": 19,
-        "weather": "Sunny",
-        "icon": "sunny"
+        "icon": "cloudy",
+        "max": "28",
+        "min": "23",
+        "details": "light rain"
       },
       {
         "day": "Thursday",
-        "temperature": 18,
-        "weather": "Sunny",
-        "icon": "sunny"
+        "icon": "sunny",
+        "max": "30",
+        "min": "25",
+        "details": "clear sky"
       },
       {
         "day": "Friday",
-        "temperature": 17,
-        "weather": "Sunny",
-        "icon": "sunny"
+        "icon": "cloudy",
+        "max": "29",
+        "min": "24",
+        "details": "light rain"
       }
     ]
   }
-}
+]
