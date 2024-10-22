@@ -1,16 +1,12 @@
 # Index
 
 - [About](#about)
-- [Demo](#demo)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 
 ## About
 Mock app.
-It fetches data locally and visualizes it for the world to see.
-
-## Demo
-[React Weather](https://react-weather.iding.ir)
+It fetches weather data locally and visualizes it for the world to see.
 
 ## Dependencies
 Vite: to scaffold a React and Typescript app.
