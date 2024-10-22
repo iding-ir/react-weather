@@ -32,7 +32,7 @@ export const Current = () => {
         {city.name}, {city.country}
       </div>
       <div className={styles.temperature}>
-        {getTemperature(Number(cityData.current.temperature), unit)}
+        {getTemperature(cityData.current.temperature, unit)}
         {getUnitSymbol(unit)}
       </div>
       <div
@@ -54,7 +54,7 @@ export const Current = () => {
   );
 };
 
-const getUnitSymbol = (unit: Unit) => {
+export const getUnitSymbol = (unit: Unit) => {
   switch (unit) {
     case UNITS.centigrade:
       return "°C";
@@ -63,7 +63,7 @@ const getUnitSymbol = (unit: Unit) => {
   }
 };
 
-const getTemperature = (temperature: number, unit: Unit) => {
+export const getTemperature = (temperature: number, unit: Unit) => {
   switch (unit) {
     case UNITS.centigrade:
       return temperature;
@@ -72,6 +72,6 @@ const getTemperature = (temperature: number, unit: Unit) => {
   }
 };
 
-const convertToFahrenheit = (temperature: number) => {
-  return temperature * 1.8 + 32;
+export const convertToFahrenheit = (temperature: number) => {
+  return Math.round(temperature * 1.8 + 32);
 };

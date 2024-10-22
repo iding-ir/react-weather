@@ -5,43 +5,43 @@
     "current": {
       "day": "Sunday",
       "icon": "cloudy",
-      "temperature": "20",
+      "temperature": 20,
       "details": "light rain"
     },
     "forecast": [
       {
         "day": "Monday",
         "icon": "sunny",
-        "max": "22",
-        "min": "16",
+        "max": 22,
+        "min": 16,
         "details": "clear sky"
       },
       {
         "day": "Tuesday",
         "icon": "cloudy",
-        "max": "21",
-        "min": "15",
+        "max": 21,
+        "min": 15,
         "details": "light rain"
       },
       {
         "day": "Wednesday",
         "icon": "sunny",
-        "max": "23",
-        "min": "17",
+        "max": 23,
+        "min": 17,
         "details": "clear sky"
       },
       {
         "day": "Thursday",
         "icon": "cloudy",
-        "max": "20",
-        "min": "15",
+        "max": 20,
+        "min": 15,
         "details": "light rain"
       },
       {
         "day": "Friday",
         "icon": "sunny",
-        "max": "22",
-        "min": "16",
+        "max": 22,
+        "min": 16,
         "details": "clear sky"
       }
     ]
@@ -52,43 +52,43 @@
     "current": {
       "day": "Sunday",
       "icon": "sunny",
-      "temperature": "25",
+      "temperature": 25,
       "details": "clear sky"
     },
     "forecast": [
       {
         "day": "Monday",
         "icon": "cloudy",
-        "max": "24",
-        "min": "17",
+        "max": 24,
+        "min": 17,
         "details": "light rain"
       },
       {
         "day": "Tuesday",
         "icon": "sunny",
-        "max": "26",
-        "min": "19",
+        "max": 26,
+        "min": 19,
         "details": "clear sky"
       },
       {
         "day": "Wednesday",
         "icon": "cloudy",
-        "max": "23",
-        "min": "16",
+        "max": 23,
+        "min": 16,
         "details": "light rain"
       },
       {
         "day": "Thursday",
         "icon": "sunny",
-        "max": "25",
-        "min": "18",
+        "max": 25,
+        "min": 18,
         "details": "clear sky"
       },
       {
         "day": "Friday",
         "icon": "cloudy",
-        "max": "24",
-        "min": "17",
+        "max": 24,
+        "min": 17,
         "details": "light rain"
       }
     ]
@@ -99,43 +99,43 @@
     "current": {
       "day": "Sunday",
       "icon": "cloudy",
-      "temperature": "22",
+      "temperature": 22,
       "details": "light rain"
     },
     "forecast": [
       {
         "day": "Monday",
         "icon": "sunny",
-        "max": "30",
-        "min": "23",
+        "max": 30,
+        "min": 23,
         "details": "clear sky"
       },
       {
         "day": "Tuesday",
         "icon": "cloudy",
-        "max": "29",
-        "min": "22",
+        "max": 29,
+        "min": 22,
         "details": "light rain"
       },
       {
         "day": "Wednesday",
         "icon": "sunny",
-        "max": "31",
-        "min": "24",
+        "max": 31,
+        "min": 24,
         "details": "clear sky"
       },
       {
         "day": "Thursday",
         "icon": "cloudy",
-        "max": "28",
-        "min": "22",
+        "max": 28,
+        "min": 22,
         "details": "light rain"
       },
       {
         "day": "Friday",
         "icon": "sunny",
-        "max": "30",
-        "min": "23",
+        "max": 30,
+        "min": 23,
         "details": "clear sky"
       }
     ]
@@ -146,43 +146,43 @@
     "current": {
       "day": "Sunday",
       "icon": "sunny",
-      "temperature": "25",
+      "temperature": 25,
       "details": "clear sky"
     },
     "forecast": [
       {
         "day": "Monday",
         "icon": "cloudy",
-        "max": "29",
-        "min": "24",
+        "max": 29,
+        "min": 24,
         "details": "light rain"
       },
       {
         "day": "Tuesday",
         "icon": "sunny",
-        "max": "31",
-        "min": "26",
+        "max": 31,
+        "min": 26,
         "details": "clear sky"
       },
       {
         "day": "Wednesday",
         "icon": "cloudy",
-        "max": "28",
-        "min": "23",
+        "max": 28,
+        "min": 23,
         "details": "light rain"
       },
       {
         "day": "Thursday",
         "icon": "sunny",
-        "max": "30",
-        "min": "25",
+        "max": 30,
+        "min": 25,
         "details": "clear sky"
       },
       {
         "day": "Friday",
         "icon": "cloudy",
-        "max": "29",
-        "min": "24",
+        "max": 29,
+        "min": 24,
         "details": "light rain"
       }
     ]

@@ -3,15 +3,15 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export type Current = {
   day: string;
   icon: string;
-  temperature: string;
+  temperature: number;
   details: string;
 };
 
 export type Weather = {
   day: string;
   icon: string;
-  max: string;
-  min: string;
+  max: number;
+  min: number;
   details: string;
 };
 
